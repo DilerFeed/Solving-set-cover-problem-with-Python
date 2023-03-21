@@ -39,7 +39,7 @@ def count_ones(row):
 
 # Власне метод ядерних рядків
 changed = True
-# Поки є змінни в стані матриці
+# Поки є зміни в стані матриці
 while changed == True:
     changed = False
     core_columns = []
