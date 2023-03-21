@@ -1,4 +1,4 @@
-# Solving covering problem with Python
+# Solving set cover problem with Python
 
 In computer science, the problem of finding a minimum vertex cover is a classical optimization problem. It is NP-hard, so it cannot be solved by a polynomial-time algorithm if P ≠ NP. Moreover, it is hard to approximate – it cannot be approximated up to a factor smaller than 2 if the unique games conjecture is true. On the other hand, it has several simple 2-factor approximations. It is a typical example of an NP-hard optimization problem that has an approximation algorithm. Its decision version, the vertex cover problem, was one of Karp's 21 NP-complete problems and is therefore a classical NP-complete problem in computational complexity theory. Furthermore, the vertex cover problem is fixed-parameter tractable and a central problem in parameterized complexity theory.
 
