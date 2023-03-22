@@ -161,13 +161,13 @@ print("The best solutions: ")
 print(f"By the number of rows: FOR {best_amount} rows, or rather: ", end="")
 for row in best_amount_row:
     if row != best_amount_row[-1]:
-        print(f"{row + 1}, ", end="")
+        print(f"{row}, ", end="")
     else:
-        print(f"{row + 1}.")
+        print(f"{row}.")
 print("---------------------------------------------------------")
 print(f"For the price: FOR THE PRICE {best_cost} by a combination of the following lines: ", end="")
 for row in best_cost_row:
     if row != best_cost_row[-1]:
-        print(f"{row + 1}, ", end="")
+        print(f"{row}, ", end="")
     else:
-        print(f"{row + 1}.")
+        print(f"{row}.")
